@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    max-width: 1050px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p,span{
+    color: white;
+}
+button{
+    cursor: pointer
+}
+.glide__track{
+    overflow-x: hidden
+}
+.glide__slide{
+    width: 230px !important;
+}
+@import './components/header';
+@import './components/first-section';
+@import './components/objects';
+@import './components/map';
+@import './components/license';
+@import './components/company';
+@import './components/contact';
+@import './components/footer'
