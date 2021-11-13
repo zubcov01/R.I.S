@@ -34,6 +34,9 @@ button{
 .glide__slide{
     width: 230px !important;
 }
+.burger{
+    display: none;
+}
 @import './components/header';
 @import './components/first-section';
 @import './components/objects';
@@ -41,4 +44,5 @@ button{
 @import './components/license';
 @import './components/company';
 @import './components/contact';
-@import './components/footer'
+@import './components/footer';
+@import './components/media'

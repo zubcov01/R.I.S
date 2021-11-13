@@ -43,6 +43,10 @@ button {
   width: 230px !important;
 }
 
+.burger {
+  display: none;
+}
+
 .header {
   width: 100%;
   position: absolute;
@@ -468,5 +472,120 @@ button {
 
 .footer p {
   text-align: center;
+}
+
+@media (max-width: 576px) {
+  .burger {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .burger__line {
+    width: 30px;
+    height: 3px;
+    background: #ffa62b;
+    margin-bottom: 5px;
+  }
+  .burger.active .burger__line:nth-of-type(1) {
+    -webkit-transform: rotate(50deg);
+            transform: rotate(50deg);
+  }
+  .burger.active .burger__line:nth-of-type(2) {
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+  }
+  .burger.active .burger__line:nth-of-type(3) {
+    display: none;
+  }
+  .nav {
+    display: none;
+  }
+  .nav img {
+    display: none;
+  }
+  .nav.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .nav__navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .first-section {
+    background-position: right;
+  }
+  .col iframe {
+    width: 100%;
+  }
+  .map .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .d-flex img {
+    margin-bottom: 35px;
+  }
+  .company-contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .company-contact__input {
+    width: 100%;
+  }
+  .contact-cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .license__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .license__card {
+    margin-bottom: 20px;
+  }
+  .license__card__img {
+    width: 100%;
+  }
+  .objects__card__img {
+    width: 100%;
+  }
+  .first-text__title {
+    font-size: 40px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
