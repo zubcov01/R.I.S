@@ -58,14 +58,14 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 15px;
 }
 
 .nav__item {
-  margin-right: 15px;
+  margin-right: 50px;
 }
 
 .nav__item:last-of-type {
@@ -86,6 +86,7 @@ button {
 .nav__link {
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  color: #252b42;
 }
 
 .nav__link:hover {
@@ -96,8 +97,9 @@ button {
 
 .first-section {
   width: 100%;
-  background-image: url("../../../src/images/first-section/bg.png");
+  background-image: url("../../../src/images/first-section/8.png");
   background-size: cover;
+  background-position: center;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -107,14 +109,14 @@ button {
           align-items: center;
 }
 
-.first-text__title {
-  font-size: 50px;
-  line-height: 1.5;
-  letter-spacing: 3px;
-}
-
 .first-text__descr {
   letter-spacing: 1.2px;
+  color: #252b42;
+  font-weight: bold;
+}
+
+.first-text__img {
+  margin-bottom: 20px;
 }
 
 .first-btn {
@@ -134,7 +136,8 @@ button {
 
 .first-btn__btn:last-of-type {
   background: none;
-  border: 2px solid #fff;
+  border: 2px solid #252b42;
+  color: #252b42;
 }
 
 .first-cards {
