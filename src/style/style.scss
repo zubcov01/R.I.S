@@ -8,6 +8,7 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    background: #252b42;
 }
 li{
     list-style: none;
@@ -36,6 +37,17 @@ button{
 }
 .burger{
     display: none;
+}
+.about-us{
+    
+    &__title{
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    &__descr{
+        font-size: 22px;
+    }
 }
 @import './components/header';
 @import './components/first-section';

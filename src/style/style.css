@@ -9,6 +9,7 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  background: #252b42;
 }
 
 li {
@@ -45,6 +46,16 @@ button {
 
 .burger {
   display: none;
+}
+
+.about-us__title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.about-us__descr {
+  font-size: 22px;
 }
 
 .header {
@@ -97,7 +108,7 @@ button {
 
 .first-section {
   width: 100%;
-  background-image: url("../../../src/images/first-section/8.png");
+  background-image: url("../../../src/images/first-section/5.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -134,7 +145,7 @@ button {
   margin-right: 5px;
 }
 
-.first-btn__btn:last-of-type {
+.first-btn__btn.second {
   background: none;
   border: 2px solid #252b42;
   color: #252b42;
@@ -319,70 +330,6 @@ button {
 .license__descr {
   text-align: center;
   letter-spacing: 1.1px;
-}
-
-.company {
-  background: #252b42;
-  padding: 80px 0 80px;
-}
-
-.d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.company-contact {
-  background: #16697a;
-  border-radius: 5px;
-  padding: 15px;
-  padding-top: 1px;
-  margin-top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.company-contact__input {
-  width: calc(450px - 117px);
-  height: 58px;
-  border: 1px solid #e5e5e5;
-  background: #f9f9f9;
-  font-size: 15px;
-  padding: 5px;
-  outline: none;
-  border-radius: 5px;
-}
-
-.company-contact__btn {
-  width: 117px;
-  height: 58px;
-  margin-left: -4px;
-  border: 1px solid #e5e5e5;
-  background: #ffa62b;
-  color: white;
-  font-size: 15px;
-  border-radius: 5px;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.input {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .contact {
